@@ -4,22 +4,6 @@
     <list default="true" id="7122c58d-1018-4395-a350-a6ea39517592" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jd/qz/service/JobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jd/qz/service/JobService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jd/qz/QzApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jd/qz/controller/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jd/qz/domain/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jd/qz/domain/PcInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jd/qz/job/MyJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jd/qz/mapper/MenuMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jd/qz/mapper/PcInfoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jd/qz/service/JobService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jd/qz/service/MenuService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jd/qz/service/PcInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/MenuMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/PcInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jd/qz/QzApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +166,7 @@
       <workItem from="1577079339768" duration="5217000" />
       <workItem from="1577084583123" duration="3073000" />
       <workItem from="1578532614577" duration="28000" />
-      <workItem from="1583575031960" duration="284000" />
+      <workItem from="1583575031960" duration="585000" />
     </task>
     <task id="LOCAL-00001" summary="quartz分布式任务调试">
       <created>1577087399955</created>
@@ -198,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577087536057</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="quartz分布式任务调试">
+      <created>1583575327011</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583575327011</updated>
+    </task>
+    <task id="LOCAL-00004" summary="quartz分布式任务调试">
+      <created>1583575533540</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583575533540</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,10 +219,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="729" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577079863307" />
-    <state x="572" y="117" key="CommitChangelistDialog2" timestamp="1583575323937">
+    <state x="572" y="117" key="CommitChangelistDialog2" timestamp="1583575545420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583575323937" />
+    <state x="572" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583575545420" />
     <state x="779" y="265" key="FileChooserDialogImpl" timestamp="1583575486284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

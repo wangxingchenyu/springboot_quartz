@@ -12,24 +12,25 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class JobService {
-    @Autowired
-    Scheduler scheduler;
-    int count = 0;
+	@Autowired
+	Scheduler scheduler;
+	int count = 0;
 
-    public void executeQuartzTask() {
-        JobKey jobKey = new JobKey("j1", "jgroup");
-        JobDetail jobDetail = JobBuilder.newJob(MyJob.class).withIdentity(jobKey).build();
-        Trigger trigger = TriggerBuilder.newTrigger().withIdentity("t1", "tgroup").startNow().
-                withSchedule(CronScheduleBuilder.cronSchedule("*/2 * * * * ?"))
-                .build();
-        try {
-            scheduler.scheduleJob(jobDetail, trigger);
-            scheduler.start();
-            scheduler.shutdown(true);
-            count++;
-        } catch (SchedulerException e) {
-            e.printStackTrace();
-        }
-    }
+	public void executeQuartzTask() {
+		JobKey jobKey = new JobKey("j1", "jgroup");
+		System.out.println("hello quartz");
+		JobDetail jobDetail = JobBuilder.newJob(MyJob.class).withIdentity(jobKey).build();
+		Trigger trigger = TriggerBuilder.newTrigger().withIdentity("t1", "tgroup").startNow().
+				withSchedule(CronScheduleBuilder.cronSchedule("*/2 * * * * ?"))
+				.build();
+		try {
+			scheduler.scheduleJob(jobDetail, trigger);
+			scheduler.start();
+			scheduler.shutdown(true);
+			count++;
+		} catch (SchedulerException e) {
+			e.printStackTrace();
+		}
+	}
 
 }
