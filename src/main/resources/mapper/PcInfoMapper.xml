@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jd.qz.mapper.PcInfoMapper">
+  <resultMap id="BaseResultMap" type="com.jd.qz.domain.PcInfo">
+    <!--@mbg.generated generated on Mon Dec 23 13:57:01 CST 2019.-->
+    <!--@Table pc_info-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="system_producer" jdbcType="LONGVARCHAR" property="systemProducer" />
+    <result column="system_type" jdbcType="VARCHAR" property="systemType" />
+    <result column="system_processer" jdbcType="VARCHAR" property="systemProcesser" />
+    <result column="hostname" jdbcType="VARCHAR" property="hostname" />
+    <result column="system_version" jdbcType="VARCHAR" property="systemVersion" />
+    <result column="physical_memory" jdbcType="VARCHAR" property="physicalMemory" />
+    <result column="mac_addr" jdbcType="VARCHAR" property="macAddr" />
+    <result column="c_area" jdbcType="INTEGER" property="cArea" />
+    <result column="run_time" jdbcType="TIMESTAMP" property="runTime" />
+    <result column="register_user" jdbcType="LONGVARCHAR" property="registerUser" />
+    <result column="dongdong_dir_size" jdbcType="INTEGER" property="dongdongDirSize" />
+    <result column="all_c_space" jdbcType="VARCHAR" property="allCSpace" />
+    <result column="ost_file_size" jdbcType="INTEGER" property="ostFileSize" />
+    <result column="pre_login_time" jdbcType="VARCHAR" property="preLoginTime" />
+    <result column="disks" jdbcType="LONGVARCHAR" property="disks" />
+    <result column="ip" jdbcType="VARCHAR" property="ip" />
+    <result column="c_used_rate" jdbcType="INTEGER" property="cUsedRate" />
+    <result column="wulineicun" jdbcType="VARCHAR" property="wulineicun" />
+    <result column="sn" jdbcType="VARCHAR" property="sn" />
+    <result column="valiable_memory" jdbcType="VARCHAR" property="valiableMemory" />
+    <result column="start_time" jdbcType="VARCHAR" property="startTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Mon Dec 23 13:57:01 CST 2019.-->
+    id, system_producer, system_type, system_processer, hostname, system_version, physical_memory, 
+    mac_addr, c_area, run_time, register_user, dongdong_dir_size, all_c_space, ost_file_size, 
+    pre_login_time, disks, ip, c_used_rate, wulineicun, sn, valiable_memory, start_time
+  </sql>
+</mapper>

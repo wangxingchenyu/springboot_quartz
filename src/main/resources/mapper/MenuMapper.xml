@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jd.qz.mapper.MenuMapper">
+  <resultMap id="BaseResultMap" type="com.jd.qz.domain.Menu">
+    <!--@mbg.generated generated on Mon Dec 23 13:57:01 CST 2019.-->
+    <!--@Table menu-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="url_name" jdbcType="VARCHAR" property="urlName" />
+    <result column="frontEndRouter" jdbcType="LONGVARCHAR" property="frontendrouter" />
+    <result column="pid" jdbcType="INTEGER" property="pid" />
+    <result column="RouteGuidance" jdbcType="VARCHAR" property="routeguidance" />
+    <result column="menuIncon" jdbcType="VARCHAR" property="menuincon" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Mon Dec 23 13:57:01 CST 2019.-->
+    id, url_name, frontEndRouter, pid, RouteGuidance, menuIncon
+  </sql>
+</mapper>
